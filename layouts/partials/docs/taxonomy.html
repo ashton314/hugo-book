@@ -1,4 +1,4 @@
-<nav>
+<nav class="post-metadata">
   <ul>
   {{ range $term, $_ := .Site.Taxonomies }}
     {{ with $.Site.GetPage (printf "/%s" $term | urlize) }}

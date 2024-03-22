@@ -6,7 +6,7 @@
 
 ### [Hugo](https://gohugo.io) documentation theme as simple as plain book
 
-![Screenshot](https://raw.githubusercontent.com/alex-shpak/hugo-book/master/images/screenshot.png)
+![Screenshot](https://github.com/alex-shpak/hugo-book/blob/master/images/screenshot.png)
 
 - [Features](#features)
 - [Requirements](#requirements)
@@ -34,7 +34,7 @@
 ## Requirements
 
 - Hugo 0.79 or higher
-- Hugo extended version, [Installation Instructions](https://gohugo.io/installation/)
+- Hugo extended version, read more [here](https://gohugo.io/news/0.48-relnotes/)
 
 ## Installation
 
@@ -135,6 +135,8 @@ And Enable it by setting `BookMenuBundle: /menu` in Site configuration.
 
 A simple blog is supported in the section `posts`.  
 A blog is not the primary usecase of this theme, so it has only minimal features.
+
+You can exclude items from the RSS feed by adding `unlisted = true` to the frontmatter.
 
 ## Configuration
 
@@ -296,7 +298,7 @@ In addition to this, there are several empty partials you can override to easily
 
 ### Plugins
 
-There are a few features implemented as pluggable `scss` styles. Usually these are features that don't make it to the core but can still be useful.
+There are a few features implemented as plugable `scss` styles. Usually these are features that don't make it to the core but can still be useful.
 
 | Plugin                            | Description                                                 |
 | --------------------------------- | ----------------------------------------------------------- |
